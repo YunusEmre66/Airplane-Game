@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="uzay.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <div >
+        <!-- Oyun alanınız ve diğer içerikler burada olacak -->
+        <div id="score"></div>
+        <div id="kills"></div>
+        <div id="start" class="panel">
+            <h2>SÜPER OYUN</h2>
+            <p>Düşmanlara karşı kendini koru !</p>
+            <button onclick="init();">BAŞLA</button>
+        </div>
+        <canvas id="canvas"  ></canvas>
+        <audio id="bulletSound" preload="auto">
+            <source src="mixkit-short-laser-gun-shot-1670.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <script src="uzay.js"></script>
+</body>
+
+
+</html>
